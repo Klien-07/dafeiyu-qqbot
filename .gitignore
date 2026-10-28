@@ -1,0 +1,25 @@
+# ===== 运行时与数据（敏感/体积大，不进仓库）=====
+astrbot/
+napcat/
+venv/
+uv-cache/
+pip-cache/
+tmp/
+backup/
+dist/
+napcat_config_backup_*/
+
+# ===== 日志与诊断 =====
+*.log
+napcat-diag*
+
+# ===== 本地敏感配置（QQ号等）=====
+*.local.txt
+
+# ===== 无关文件 =====
+video-meta.json
+dsh-ops-README.md
+
+# ===== Python =====
+__pycache__/
+*.pyc
